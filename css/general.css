@@ -1,8 +1,54 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+body {
+    font-family: sans-serif;
+}    
+
 h1 {
-    font-family: , sans-serif;
-    color: #000;
+    font-family: sans-serif;
+    color: #a3104f;
 }        
 
+img {
+    width: 100%;
+}    
+
+blockquote {
+    font-family: serif;
+}    
+
+
+
+figcaption {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #a3104f;
+}        
+
+
+dl {
+    overflow: hidden;
+    /*It reminds the <dl> to wrap around its floated children
+    */
+}    
+
+dt {
+    float: left;
+    clear: left;
+    width: 8em;
+}    
+
+dd {
+    float: left;  
+    margin: 0;
+    padding: 0;
+}    
+
+ul {
+    
+}
